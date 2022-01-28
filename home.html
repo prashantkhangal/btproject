@@ -280,7 +280,7 @@
               </font>
               <p>And finally, here's the recursive backtracking routine to "solve" 
                 the binary tree by finding a goal node.</p>
-             
+             <font color="#660000" size="5px" type="Times New Roman">
                 <pre>
                      static boolean solvable(BinaryTree node) {
                      <font color="#0000ff">/* 1 */</font>  if (node == null) return false;
@@ -289,7 +289,7 @@
                      <font color="#0000ff">/* 4 */</font>  if (solvable(node.rightChild)) return true;
                      <font color="#0000ff">/* 5 */</font>  return false;
                      }</pre>
-              
+               </font>
               <p>Here's what the numbered lines are doing:</p>
               <ol>
                 <li>If we are given a null node, it's not solvable. This statement is so that 
